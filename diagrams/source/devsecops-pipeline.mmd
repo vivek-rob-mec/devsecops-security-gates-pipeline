@@ -1,0 +1,11 @@
+flowchart LR
+A[Plan] --> B[Threat Model] --> C[Develop] --> D[PR]
+D --> E[Secrets] --> F[SCA] --> G[SAST] --> H[IaC]
+H --> I[Test] --> J[Build / Restricted Candidate Registry]
+J --> K[Image Scan by Digest] --> L[SBOM]
+L --> M[Sign / Provenance] --> N[Retain Trust Evidence] --> O[Staging by Digest]
+O --> P[DAST/API] --> Q{Gate}
+Q -->|Pass| R[Production Same Digest]
+Q -->|Fail| S[Fix/Exception]
+S --> D
+R --> T[Runtime Detection] --> A

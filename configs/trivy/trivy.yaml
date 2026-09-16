@@ -1,0 +1,13 @@
+scan:
+  scanners:
+    - vuln
+    - misconfig
+  skip-dirs:
+    - presentation
+    - reports/examples
+    - reports/generated
+    - .tools
+
+severity:
+  - HIGH
+  - CRITICAL

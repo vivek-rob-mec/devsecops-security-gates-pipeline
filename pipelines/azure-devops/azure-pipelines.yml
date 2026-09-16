@@ -1,0 +1,31 @@
+trigger:
+- main
+
+pr:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: FastSecurity
+  jobs:
+  - job: Scan
+    steps:
+    - checkout: self
+    - script: bash scripts/secret-scan.sh
+      displayName: Secret scan
+    - script: bash scripts/iac-scan.sh
+      displayName: IaC scan
+
+- stage: Verify
+  jobs:
+  - job: AppSec
+    steps:
+    - checkout: self
+    - script: bash scripts/sca-scan.sh
+      displayName: SCA
+    - script: bash scripts/sast-scan.sh
+      displayName: SAST
+
+# Add build, immutable publish, staging, DAST, approval, and production stages.

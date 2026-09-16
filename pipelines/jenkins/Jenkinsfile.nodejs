@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+    stage('Secrets') { steps { sh 'bash scripts/secret-scan.sh' } }
+    stage('Install') { steps { sh 'npm ci' } }
+    stage('SCA') { steps { sh 'npm audit --audit-level=high && bash scripts/sca-scan.sh' } }
+    stage('SAST') { steps { sh 'bash scripts/sast-scan.sh' } }
+    stage('Test') { steps { sh 'npm test -- --ci' } }
+    stage('Build') { steps { sh 'npm run build' } }
+  }
+}

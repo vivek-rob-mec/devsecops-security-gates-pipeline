@@ -1,0 +1,10 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "example-app@sha256:DEMO",
+  "Results": [
+    {
+      "Target": "example",
+      "Vulnerabilities": []
+    }
+  ]
+}

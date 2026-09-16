@@ -1,0 +1,59 @@
+stages:
+  - fast-security
+  - verify
+  - build
+  - supply-chain
+  - staging
+  - dynamic-security
+  - release
+
+# Runner must have Bash and the reviewed scanner versions installed.
+default:
+  artifacts:
+    when: always
+    expire_in: 14 days
+    paths:
+      - reports/generated/
+
+variables:
+  GIT_DEPTH: "0"
+
+secret_scan:
+  stage: fast-security
+  script: ["bash scripts/secret-scan.sh"]
+
+iac_scan:
+  stage: fast-security
+  script: ["bash scripts/iac-scan.sh"]
+
+sca:
+  stage: verify
+  script: ["bash scripts/sca-scan.sh"]
+
+sast:
+  stage: verify
+  script: ["bash scripts/sast-scan.sh"]
+
+build:
+  stage: build
+  script:
+    - echo "Build one immutable artifact here"
+
+sbom:
+  stage: supply-chain
+  script: ["bash scripts/generate-sbom.sh"]
+
+staging:
+  stage: staging
+  script:
+    - echo "Deploy same artifact digest to staging"
+
+dast:
+  stage: dynamic-security
+  script: ["bash scripts/dast-scan.sh"]
+  rules:
+    - if: '$DAST_TARGET_URL'
+
+release_gate:
+  stage: release
+  script: ["bash scripts/security-gate.sh"]

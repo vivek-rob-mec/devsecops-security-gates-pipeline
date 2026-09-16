@@ -1,0 +1,11 @@
+title = "DevSecOps reference Gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Add narrow, reviewed false-positive allowlists only."
+paths = [
+  '^reports[\\/]examples[\\/]',
+  '(^|[\\/])\.tools[\\/]'
+]

@@ -1,0 +1,29 @@
+name: repository-security
+on:
+  pull_request:
+  schedule:
+    - cron: "17 3 * * 1"
+permissions:
+  contents: read
+jobs:
+  trivy-config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trivy configuration scan
+        uses: aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1 # v0.35.0
+        with:
+          scan-type: config
+          hide-progress: true
+          exit-code: "1"
+          severity: HIGH,CRITICAL
+          format: json
+          output: trivy-config.json
+      - name: Preserve scan report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trivy-config
+          path: trivy-config.json
+          retention-days: 14
+# Review transitive action dependencies and tool provisioning when updating pins.

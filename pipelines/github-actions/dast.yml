@@ -1,0 +1,19 @@
+name: dast-reference
+on:
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: Authorized staging URL
+        required: true
+permissions:
+  contents: read
+jobs:
+  dast:
+    runs-on: ubuntu-latest
+    environment: staging-security-test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run authorized DAST wrapper
+        env:
+          DAST_TARGET_URL: ${{ inputs.target_url }}
+        run: bash scripts/dast-scan.sh

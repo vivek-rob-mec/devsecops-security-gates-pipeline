@@ -1,0 +1,947 @@
+[
+  {
+    "path": ".editorconfig",
+    "sha256": "a1591beb7fcd93458c6bbb1330c95c0f5a69ba445d6118a8804613a66b6ee704",
+    "bytes": 254
+  },
+  {
+    "path": ".gitattributes",
+    "sha256": "9a65996bbfe948ed3f81211af8c665ca7002d78f30960fe95188f757aed0c455",
+    "bytes": 72
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "sha256": "4a2a48e0c35e18b68743a5d0963e8fdf7c3c0f39913bf657ca38974eebbba281",
+    "bytes": 103
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "sha256": "2d45024bde2dd0754ae08c393bcdab54130c4aae570add1de55263d23508a26f",
+    "bytes": 174
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/documentation.md",
+    "sha256": "1804b13709ae4c3a4eb26f9b526b003f499b72935b8db752450319b3a3893973",
+    "bytes": 126
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/security-improvement.md",
+    "sha256": "3cdab73eff14ec817c315c014c30291cdbfde3a6f6cb72edf0d8f7b69fa14aa8",
+    "bytes": 240
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "sha256": "214d940291cfd9b997df6bc72802aac3ddcbb4895843195a94453f97215075ca",
+    "bytes": 115
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "sha256": "84856594b28e7286f6001539065f9583b5152513051156cfa2979f6a727b9d05",
+    "bytes": 354
+  },
+  {
+    "path": ".github/workflows/markdown-lint.yml",
+    "sha256": "7ee9946368986353f9e237ab36e2e63cac9765e64bf9f693ab9913db13f92d8a",
+    "bytes": 384
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "sha256": "4fa5727e1acde171626a7b5fdf425f7c3a78a31c580ce0b38fbeb2e4e58f7d4d",
+    "bytes": 211
+  },
+  {
+    "path": ".github/workflows/secret-scan.yml",
+    "sha256": "671d4ebd02885a9d4124d1fc1aeccd3c64432b304165273a9ee6c1a6f10c5f95",
+    "bytes": 432
+  },
+  {
+    "path": ".github/workflows/security-scan.yml",
+    "sha256": "08a841ce555f06bc1429a002236b78e81fb0d4113ece4231d3e4be20f016bdd6",
+    "bytes": 812
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "0834b99c277c86974b3f0752148365abb021d6e0c916b2d2d88907628cb0beba",
+    "bytes": 443
+  },
+  {
+    "path": ".markdownlint.yml",
+    "sha256": "e5516d3654e7f539dc4f9165b8bfc3e3c7a3c1950bfee6761fc3d9ec45ec0da7",
+    "bytes": 53
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "sha256": "a488dcf1c9d7c36f50f71fd43aa2328dfa7ebc39fc73c9ae614068c338c0c52c",
+    "bytes": 165
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "8e503188e40ce91b397574f7206b7f12e948bd348d4afc3705c7f2badc6df701",
+    "bytes": 1009
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "sha256": "542081e7747d2ed9b0e7930b03e4655e307a7f369fb9d125d6ac3c7520385e93",
+    "bytes": 230
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "f061addbde2f7b053473fba5565f21833bbba1727f31727b433e6778f132ffbb",
+    "bytes": 818
+  },
+  {
+    "path": "DISCLAIMER.md",
+    "sha256": "d140323a6c7bea360dc5ccf6e1e7ffaa45e17b8e86820937eb804e8b96d6c0e0",
+    "bytes": 640
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "Makefile",
+    "sha256": "ca90f260afd8cd34512b4125d3310c506c78f3aa2aaaf7a1d47f5bc12c535a4b",
+    "bytes": 364
+  },
+  {
+    "path": "README.md",
+    "sha256": "c3e5f58f4187b5cc3990f297b0e8a0e6eb299919e2435e9e410fad47324e3f88",
+    "bytes": 9361
+  },
+  {
+    "path": "ROADMAP.md",
+    "sha256": "ce8853fe65253bb611365fe988021b95029698f99102cb4cf9e2d706ec438f24",
+    "bytes": 684
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "015d0c1b2f2794ca0ec1cb7e94d99b0b1f565745fb52a19d3b3c3b588cca40ef",
+    "bytes": 1130
+  },
+  {
+    "path": "VERSION",
+    "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+    "bytes": 6
+  },
+  {
+    "path": "compliance/control-mapping.md",
+    "sha256": "d780b7dd9e5b3081295bfc816ad776bbc119e01b970ca221c270fa5feadfe6f9",
+    "bytes": 227
+  },
+  {
+    "path": "compliance/evidence-requirements.md",
+    "sha256": "1647d92fbf7be4f0aec5ad84f3c73f5a30b88a8e7ac71a134326845e20d4c664",
+    "bytes": 291
+  },
+  {
+    "path": "compliance/release-evidence.md",
+    "sha256": "df5b8074d76d26839f486d9f3ac7202a7f1adc88bd82a6f8ef15ce4a0b17c5b4",
+    "bytes": 507
+  },
+  {
+    "path": "configs/checkov/.checkov.yml",
+    "sha256": "977b1a5ffc66d2ef1b23bcba0a797537471fcac65e01c631b404aae1d183e7b5",
+    "bytes": 82
+  },
+  {
+    "path": "configs/dependency-check/suppression.xml",
+    "sha256": "5385580661fd6427b5f2a8ef74cfff98c5b3c939e1c8d342cdafdd19818d4f2d",
+    "bytes": 248
+  },
+  {
+    "path": "configs/gitleaks/.gitleaks.toml",
+    "sha256": "42782ad19351da9db31ef6c37437a5078ca8562b7bc338fa4c43cf3bfa56cdd5",
+    "bytes": 226
+  },
+  {
+    "path": "configs/kyverno/policies/require-non-root.yaml",
+    "sha256": "004fcc11261aa3a526b5ca9bcface3849031ab884f0005bce34a4cda52b5962b",
+    "bytes": 495
+  },
+  {
+    "path": "configs/semgrep/semgrep.yml",
+    "sha256": "21ee10834dfa3dbbdb543848a155f82391cb46567c9a2296be0ba93928aeea3d",
+    "bytes": 265
+  },
+  {
+    "path": "configs/sonarqube/sonar-project.properties",
+    "sha256": "960c8512c2c3bcc9bdde18aac682c0186c74ff7ee1d6ffabdc07876a1017efd3",
+    "bytes": 185
+  },
+  {
+    "path": "configs/trivy/trivy.yaml",
+    "sha256": "2aa9da25c9e810c71b2db56474616e35aa4aa1601d5143ff911f1b1485f81c86",
+    "bytes": 170
+  },
+  {
+    "path": "configs/zap/zap-baseline.conf",
+    "sha256": "519ce5f0951b1a77e261358764491615fec0b6740653f886cf19487d85d5f8c4",
+    "bytes": 108
+  },
+  {
+    "path": "configs/zap/zap-rules.conf",
+    "sha256": "3743c62f26df9c593f78cef914d1ed8687c55df851e736e78732dfc88036ef8a",
+    "bytes": 87
+  },
+  {
+    "path": "diagrams/README.md",
+    "sha256": "3bbd47c60e11993582c64b2d494b7c151c9d633b0584bf4b5c47611443a26c92",
+    "bytes": 200
+  },
+  {
+    "path": "diagrams/source/devsecops-pipeline.mmd",
+    "sha256": "077d9fc52defa05a67c4668134ca60e5c82899fdded9d0c02f5ebbb9f1169aac",
+    "bytes": 437
+  },
+  {
+    "path": "diagrams/source/release-decision.mmd",
+    "sha256": "3c319ddbda131f480ae87c6912f5be475ec312525a105ac15a1275cfe67b1591",
+    "bytes": 257
+  },
+  {
+    "path": "diagrams/source/vulnerability-flow.mmd",
+    "sha256": "273324257247ea399ba6e348a7a978e1540f56dbc65766a789af505c26e605c8",
+    "bytes": 285
+  },
+  {
+    "path": "docs/00-introduction.md",
+    "sha256": "fc2690b45ab9975e432d6408273b21027dda2bfb5aee9a5cc0f605015797f117",
+    "bytes": 1151
+  },
+  {
+    "path": "docs/01-devsecops-overview.md",
+    "sha256": "d6eba87fd146c1775f9bf8c90862c913bd3c30e61e16c99366753c6f7939a5a0",
+    "bytes": 748
+  },
+  {
+    "path": "docs/02-devsecops-lifecycle.md",
+    "sha256": "e50a9675289ffc1c25b1f661b69e6304b773436d594ef4ace521b85d5aad77ee",
+    "bytes": 867
+  },
+  {
+    "path": "docs/03-industry-aligned-pipeline.md",
+    "sha256": "ab99fe13b8ea50ad86954c312889fc99bb058c67ab1b28d1c2b56477208cf806",
+    "bytes": 1967
+  },
+  {
+    "path": "docs/04-security-gates.md",
+    "sha256": "5a951ed60566b8f8fa020444a82d0da9e235d7595d18bdf22b4402bc2308e855",
+    "bytes": 918
+  },
+  {
+    "path": "docs/05-release-evidence.md",
+    "sha256": "5ef31f675013fa63ebdba34fc22e4a610cefb892599e677b517e3ea2d2099548",
+    "bytes": 693
+  },
+  {
+    "path": "docs/DETECTION_AND_DATA.md",
+    "sha256": "eb71a4626ed97389640dbb3553d9be51478621b2b48889942eaef4fea8ead35e",
+    "bytes": 8140
+  },
+  {
+    "path": "docs/DEVSECOPS_HANDBOOK.html",
+    "sha256": "051d3576484f716133e257681926ca48c2cda7660f2fe1f3ec6e78a87fa10d17",
+    "bytes": 81051
+  },
+  {
+    "path": "docs/DEVSECOPS_HANDBOOK.md",
+    "sha256": "395a1858dc4dd1540182e07c086e4283be9b8fbcb54a036b2f59ece7a200e309",
+    "bytes": 74229
+  },
+  {
+    "path": "docs/PROJECT_REVIEW.md",
+    "sha256": "f776a1946d6f0e1659ba47b920b5558e584dc532a119fc2e8303374c46380fe0",
+    "bytes": 5430
+  },
+  {
+    "path": "docs/VALIDATION.md",
+    "sha256": "4e7d4bea81ab74dc6686e0b3f674fd24980dc79c426906fb168f9ff261b40f94",
+    "bytes": 3558
+  },
+  {
+    "path": "docs/api-security/README.md",
+    "sha256": "0ba513ffb60aff32e4ccf0ca393405b537b9cc2d5a62af6bc01cbac5b34b4cf3",
+    "bytes": 252
+  },
+  {
+    "path": "docs/api-security/api-security-testing.md",
+    "sha256": "93a8ae094a55413f834e8d5e495d5e4b18154befcec5e57ef01a2643b096d0e9",
+    "bytes": 1561
+  },
+  {
+    "path": "docs/api-security/authentication-testing.md",
+    "sha256": "3fcd247dc37e39448f9f8a9e6df4c1d7804869863f3216ef82dca5ea4f403656",
+    "bytes": 208
+  },
+  {
+    "path": "docs/container-security/README.md",
+    "sha256": "2b8d115d15caad4c559acd7e62b2decbc9661127062ae7adb40dd2d9b6726c03",
+    "bytes": 157
+  },
+  {
+    "path": "docs/container-security/image-hardening.md",
+    "sha256": "b787a12e2a08e6c788cbbdf262e2a6b86cf8dc8846f740b07ccf945bbd12bee3",
+    "bytes": 313
+  },
+  {
+    "path": "docs/container-security/image-scanning.md",
+    "sha256": "c05e3596c97be037f2e486f6f36d2cae7892c102334028b187d5390ce20164bc",
+    "bytes": 1513
+  },
+  {
+    "path": "docs/container-security/image-signing.md",
+    "sha256": "4a04c8693d6bde0c870cd82b7884d9d1c4b1a7248efae6cb164b7f64b9a54e08",
+    "bytes": 202
+  },
+  {
+    "path": "docs/container-security/registry-security.md",
+    "sha256": "c33b95769e90f21ca1218ac10348bd3bf7618cd027ed4cec58d4265af828adbd",
+    "bytes": 278
+  },
+  {
+    "path": "docs/dast/README.md",
+    "sha256": "b0a2309fde19835c93054cef0b68ba13e53049d9abe3737e7620359f0dd89ed5",
+    "bytes": 371
+  },
+  {
+    "path": "docs/dast/active-scan.md",
+    "sha256": "1927277bcbbb63234aaa1821f5fe8fa4ba6c3707fe8378cfe596b43c7d764c77",
+    "bytes": 210
+  },
+  {
+    "path": "docs/dast/dast-gates.md",
+    "sha256": "8acd41a97a3f3674626630b0033bc2a4629208314c81c4f18df2e7125082c13a",
+    "bytes": 202
+  },
+  {
+    "path": "docs/dast/spider-scan.md",
+    "sha256": "c15ea1ddc05888bd254e5e6ff0dca22e153cb1669874ed0d65092f706824e759",
+    "bytes": 233
+  },
+  {
+    "path": "docs/dast/zap.md",
+    "sha256": "6c68dbe78335bd5141f74be56236f153d5b13738e64abb438199d201c4a8653a",
+    "bytes": 1557
+  },
+  {
+    "path": "docs/deployment-security/README.md",
+    "sha256": "1b292431c379869b1ba23c47cedbe8f5485ed0bb541133d8770a0fb9a413f14f",
+    "bytes": 226
+  },
+  {
+    "path": "docs/deployment-security/canary-deployment.md",
+    "sha256": "628d9f8a2e1aedc0603e26a7fbbeeb82c0a5de1ee7661e727c47850121fc4ade",
+    "bytes": 225
+  },
+  {
+    "path": "docs/deployment-security/immutable-artifacts.md",
+    "sha256": "e45935297e7f9a7d4c17766a8d15889c92ed8f776f2976ab622b21e50a9e1854",
+    "bytes": 292
+  },
+  {
+    "path": "docs/deployment-security/production.md",
+    "sha256": "6783fb78fc66a65329d7b0d40e7c766af523d1a164736dd7c4b42aa19db50580",
+    "bytes": 242
+  },
+  {
+    "path": "docs/deployment-security/rollback.md",
+    "sha256": "f788d9e9ca206a5d6b5b88eb66d880f999f65f7d57f9446c220b3334aaafb4f0",
+    "bytes": 208
+  },
+  {
+    "path": "docs/deployment-security/staging.md",
+    "sha256": "95cde9d9b847a5bb32c8bdd84df2de9d18d796ddfcbe4fd0739216cb4b9df64b",
+    "bytes": 243
+  },
+  {
+    "path": "docs/governance/audit-evidence.md",
+    "sha256": "c8a34571e63c24263fa260d14565335abf3b1c3fdab805f74d9d91353c64c018",
+    "bytes": 246
+  },
+  {
+    "path": "docs/governance/exception-management.md",
+    "sha256": "50ca2ab09bb3d0cc69f02e72d737315b82c0b2e087760bf65042f094dfdbdf17",
+    "bytes": 332
+  },
+  {
+    "path": "docs/governance/risk-acceptance.md",
+    "sha256": "245ddf2fdb0db08c05d65531d7fd4d399eb06bdd213b73cdc5c43fe32454f0f8",
+    "bytes": 277
+  },
+  {
+    "path": "docs/governance/security-sla.md",
+    "sha256": "4230b79a020245727c9ba6e6c62ae200407452146fcacd5faab6780d41cfc295",
+    "bytes": 300
+  },
+  {
+    "path": "docs/governance/vulnerability-management.md",
+    "sha256": "231f0fa442d86a24123ca4f9128ae55b69451cbdf4b50c56860d809e3db8d513",
+    "bytes": 299
+  },
+  {
+    "path": "docs/iac-security/README.md",
+    "sha256": "a64b9f6205e81ebb7542adf92efe9cecfa30e7cc49bcfa513a9d690ffa2b7b05",
+    "bytes": 403
+  },
+  {
+    "path": "docs/iac-security/checkov-trivy.md",
+    "sha256": "76a1fa31074fa861fbfd918460ab9abeeb6a0928a367f6691cbc7cfbaf7e6cdc",
+    "bytes": 1518
+  },
+  {
+    "path": "docs/iac-security/dockerfile-security.md",
+    "sha256": "3686e8f62bbcf87518cf7c08f9d2d96fee11f1d40a3b186851403960ec864a80",
+    "bytes": 303
+  },
+  {
+    "path": "docs/iac-security/kubernetes-security.md",
+    "sha256": "72d617ac9ee9e1bbd01eccb44767e734e51dfefad49c21b6b551008ad7286934",
+    "bytes": 338
+  },
+  {
+    "path": "docs/iac-security/terraform-security.md",
+    "sha256": "77417d577a96a5a61f3cd264cf6f246b1aade33efad1759119ca5d6c19cd757f",
+    "bytes": 233
+  },
+  {
+    "path": "docs/implementation/quickstart.md",
+    "sha256": "6395195debf76b5d34b41bc935ca473b3504a16848be55e8f4a96bacb7076894",
+    "bytes": 9427
+  },
+  {
+    "path": "docs/implementation/release-contract.md",
+    "sha256": "a2d2fe3f5baf6d6287492ea458d79b79a38da859245b077f5cfed78084a9ba0f",
+    "bytes": 4887
+  },
+  {
+    "path": "docs/planning/secure-requirements.md",
+    "sha256": "a958c0f2a7a06eb40f83e8db4ebb6e9f697a121b81f8432d20e98db370f30ac5",
+    "bytes": 512
+  },
+  {
+    "path": "docs/planning/security-acceptance-criteria.md",
+    "sha256": "62522c96c5c062b5812c3e0b2c4070030c17fd7552e7f9b866b851f4c2a86fc7",
+    "bytes": 393
+  },
+  {
+    "path": "docs/planning/threat-modeling.md",
+    "sha256": "35e6da6487c6473803aea4ea55eaf60c0d311242686f9ca477486f68f94a41ff",
+    "bytes": 451
+  },
+  {
+    "path": "docs/runtime-security/README.md",
+    "sha256": "df59a355ed3c8b1bd36809fee69e789b88d92f08281b91d9aa17ffea54e80fdc",
+    "bytes": 237
+  },
+  {
+    "path": "docs/runtime-security/falco.md",
+    "sha256": "c4e504c8973534769a6e941761d049fcf4915c6046d29f6f6fb30187627e24c3",
+    "bytes": 1453
+  },
+  {
+    "path": "docs/runtime-security/incident-response.md",
+    "sha256": "99ae079b44b361ec49b8dcbe6ecb5e8f8b128201e72fbdb083c99bb94d446b65",
+    "bytes": 276
+  },
+  {
+    "path": "docs/runtime-security/runtime-monitoring.md",
+    "sha256": "0868b7e4d9d154d2e62abfbe6d407463c912195ca7538f152d60c38a6179a9fe",
+    "bytes": 323
+  },
+  {
+    "path": "docs/sast/README.md",
+    "sha256": "8f02e989b9c9a77a42f13c99c640f3861e5b5dd37f54008ff8f3170c8fc47370",
+    "bytes": 316
+  },
+  {
+    "path": "docs/sast/codeql.md",
+    "sha256": "c206f86c9b9bbf5110f251c98cf571501f3e309875250e50e9b57e62abfdb3d2",
+    "bytes": 1531
+  },
+  {
+    "path": "docs/sast/sast-gates.md",
+    "sha256": "22a199ce53711de8f108ae52535ea9e07b3cadc3ebbed1e1b57a70562783c590",
+    "bytes": 356
+  },
+  {
+    "path": "docs/sast/semgrep.md",
+    "sha256": "83e907675dc05ac00b1c994809de96382dac959a64d8e79ec83b5474b44b6152",
+    "bytes": 1607
+  },
+  {
+    "path": "docs/sast/sonarqube.md",
+    "sha256": "ea90677bdb1d915a0180084e3a83eb74962bf3a18dc22c68736b32ad6f2eb662",
+    "bytes": 1609
+  },
+  {
+    "path": "docs/sbom/README.md",
+    "sha256": "f602be8a6fc3c0a6a70ee0d84ddc7efa198b9bdc6b6c9d60756ee2aaf8209257",
+    "bytes": 317
+  },
+  {
+    "path": "docs/sbom/cyclonedx.md",
+    "sha256": "2b2b5326a6acca425b1760ed0b4329ec41d2514488d4aad2826ef43951842e7c",
+    "bytes": 193
+  },
+  {
+    "path": "docs/sbom/sbom-generation.md",
+    "sha256": "621da21b7de133166aeeafd7c65740197ad33caa63d24a338d43fc1497cef195",
+    "bytes": 1500
+  },
+  {
+    "path": "docs/sbom/spdx.md",
+    "sha256": "b1bbc48237bbc900d5c85b443c68422d5f8bcca721d3ba6426efcd1ed4d9aa27",
+    "bytes": 182
+  },
+  {
+    "path": "docs/sca/README.md",
+    "sha256": "266450dd53043d0cc0c3f455d919405c4354187e8cbd6bf398cbfeb89b8447cc",
+    "bytes": 411
+  },
+  {
+    "path": "docs/sca/dependency-check.md",
+    "sha256": "415e0ff8d18b10a3ab6ac94f318730f83511b8867fbf823e2ec4aca0f4832f0f",
+    "bytes": 1587
+  },
+  {
+    "path": "docs/sca/dependency-management.md",
+    "sha256": "c098d7da969d053081baa5f595e96ed4c08ca4d0e9c70c37ec0532d6d8f7a2d9",
+    "bytes": 359
+  },
+  {
+    "path": "docs/sca/trivy.md",
+    "sha256": "21889896252618b0b2bee6ebcf5cb2633967366d4b10803e817bd428b6e9c668",
+    "bytes": 1695
+  },
+  {
+    "path": "docs/sca/vulnerability-policy.md",
+    "sha256": "7fe6fe51bbe9fa041e5b6c37299582aeafa56019628617a536ee0e9c8116646c",
+    "bytes": 399
+  },
+  {
+    "path": "docs/secret-scanning/README.md",
+    "sha256": "1342c3643be25f7954955b4332280b00ad9dbb4d1528f9694d443bf906f1d349",
+    "bytes": 615
+  },
+  {
+    "path": "docs/secret-scanning/gitleaks.md",
+    "sha256": "cfafeb89dab8a615e29ea221d3fc349fd20c4406889af903451d533d1ee8e03f",
+    "bytes": 1604
+  },
+  {
+    "path": "docs/secret-scanning/secret-remediation.md",
+    "sha256": "866f3c2371e6b91abc10fee0836ec147efde409f0556e49cf05e2911e0be2ff2",
+    "bytes": 371
+  },
+  {
+    "path": "docs/source-security/branch-protection.md",
+    "sha256": "8c3d7cca45e245a48a0daa2b16eb0f9502c12cd9fd2005fc100b74bc1552936f",
+    "bytes": 362
+  },
+  {
+    "path": "docs/source-security/code-review.md",
+    "sha256": "d226e7fd556dd4fbec14e37a7570a0aa2f1c967b43491e874b8cb34115e94e8c",
+    "bytes": 343
+  },
+  {
+    "path": "docs/source-security/commit-signing.md",
+    "sha256": "d3104feb9007d7057837a6103f669bc35b6e2909f01ef1e78b4e4d30b038bbd5",
+    "bytes": 246
+  },
+  {
+    "path": "docs/source-security/pull-request-security.md",
+    "sha256": "78c719cb8d80674ca4fbc72fccfde39b54e89dd0769f1d7771e370f364a93523",
+    "bytes": 367
+  },
+  {
+    "path": "docs/standards/CIS.md",
+    "sha256": "8a25b6e4108e33fe4146d63a24e876d72a0a885c218a674c6f44ea2fb375e73f",
+    "bytes": 305
+  },
+  {
+    "path": "docs/standards/NIST-SSDF.md",
+    "sha256": "c48b3078a563f21bc8211af021710d5cfbf284f6b08987c1e13d20cf5a3a349f",
+    "bytes": 410
+  },
+  {
+    "path": "docs/standards/OWASP-ASVS.md",
+    "sha256": "d068741a76b2a77e08665c45d55d5d0e44a91b9099eb75cadaedbfddaf1a1c16",
+    "bytes": 296
+  },
+  {
+    "path": "docs/standards/OWASP.md",
+    "sha256": "39364f298fd5a947bdfa2817714ecc60913f78982dbb94aa64a264a2d64c7dc2",
+    "bytes": 259
+  },
+  {
+    "path": "docs/standards/SLSA.md",
+    "sha256": "b5d3de567c25c3fddd114d8c358cd08452d4cb1bb1e2486728af7264003a00d2",
+    "bytes": 208
+  },
+  {
+    "path": "docs/standards/standards-mapping.md",
+    "sha256": "80eb30da124c5407e605a7866bf0575f31bd3068b7583146db1b92e2a2c96700",
+    "bytes": 816
+  },
+  {
+    "path": "docs/supply-chain/README.md",
+    "sha256": "15b9321b17d85a82cec4cdb941ace1b00ce1f74b320fedde4fd7ca741da0d628",
+    "bytes": 231
+  },
+  {
+    "path": "docs/supply-chain/artifact-signing.md",
+    "sha256": "3867646202bccdf4e45d53eec4c854a5603fa5933d67f8cc3013c04632a09341",
+    "bytes": 254
+  },
+  {
+    "path": "docs/supply-chain/cosign.md",
+    "sha256": "fa357a51570151702d037a645674d3bd631123a29a599f697bd257231b7218a0",
+    "bytes": 1545
+  },
+  {
+    "path": "docs/supply-chain/provenance.md",
+    "sha256": "e49f47787469dca85ed3ee6173ff848852f522b13dbe5afe061388a105503780",
+    "bytes": 251
+  },
+  {
+    "path": "docs/supply-chain/slsa.md",
+    "sha256": "eeb85ca1f95ccc6e376fa91427a09761e2492062a00b27d9ac292423c661ea5e",
+    "bytes": 270
+  },
+  {
+    "path": "examples/dotnet/README.md",
+    "sha256": "6028117d8abddddb407d628ac3679aaf4e46bde67b9718251804f32fe157e6cc",
+    "bytes": 216
+  },
+  {
+    "path": "examples/go/README.md",
+    "sha256": "8003e0f814b3410f638b3d5df24e11bbc5b41d682dcaac95048cd10bea447e4b",
+    "bytes": 179
+  },
+  {
+    "path": "examples/java/README.md",
+    "sha256": "1d4e62c4187ac758bcc70d455281081622829b6bec92f09761b0cc1c2a494c7a",
+    "bytes": 307
+  },
+  {
+    "path": "examples/nodejs/README.md",
+    "sha256": "10ded5e95194176a9ac83cc5e80f5f3c90ee0dea88db9a9652b5253e284f4535",
+    "bytes": 337
+  },
+  {
+    "path": "examples/python/README.md",
+    "sha256": "2e589657a21cb5f29b93feeb4fddd87ad1f1332b63d3a98e17130f53b151c81b",
+    "bytes": 297
+  },
+  {
+    "path": "pipelines/README.md",
+    "sha256": "15325ca7c9017f78d9e839c3ecbf6f7d730391bc39d8c83f5a9c52fd1e231e7a",
+    "bytes": 1343
+  },
+  {
+    "path": "pipelines/azure-devops/README.md",
+    "sha256": "db06db77235e1f4199d8bb9250aad636da4bf89824ea365376043ed087cbbff6",
+    "bytes": 200
+  },
+  {
+    "path": "pipelines/azure-devops/azure-pipelines.yml",
+    "sha256": "4863c7f1aafc51fc933c7b378380b8dbeda005ee09b512490916583d09d530e5",
+    "bytes": 565
+  },
+  {
+    "path": "pipelines/github-actions/README.md",
+    "sha256": "d6c4e660dcf13168b7bbb11af4e1bedb414ca836b12a48800dbdd8aebcef746e",
+    "bytes": 325
+  },
+  {
+    "path": "pipelines/github-actions/dast.yml",
+    "sha256": "44c4d4f7e7560e614c64100640a0708152b6e41423726ac09dc4e2c9bb22809d",
+    "bytes": 444
+  },
+  {
+    "path": "pipelines/github-actions/devsecops.yml",
+    "sha256": "0eecd8a3de80779b182cfcc4ac3a2d89f7e4ea91009f0b710e5cc7a6d583b76a",
+    "bytes": 1123
+  },
+  {
+    "path": "pipelines/github-actions/sast.yml",
+    "sha256": "e2d97e3792a9db789d05c5a98868b2f4f3b07ce343c9ea40dc020bc64be9a2aa",
+    "bytes": 188
+  },
+  {
+    "path": "pipelines/github-actions/sca.yml",
+    "sha256": "3010d5a59c08350eb6dbad225d3d33655de2dadefde4f18508854ee955f6614b",
+    "bytes": 182
+  },
+  {
+    "path": "pipelines/gitlab/.gitlab-ci.yml",
+    "sha256": "e2884a3a62748c8b578f91cb0cdd4c49bcea83d8a140ea1bd5b9476e6dc683e5",
+    "bytes": 1013
+  },
+  {
+    "path": "pipelines/gitlab/README.md",
+    "sha256": "6609653c8bed92bf1b05dbc3782134ac268f67828a0d169ec4fe293f897f728e",
+    "bytes": 196
+  },
+  {
+    "path": "pipelines/jenkins/Jenkinsfile",
+    "sha256": "801c8cd1e48a70f4bf31e307119af583c72e349f7650c00881c65501df832a3e",
+    "bytes": 1748
+  },
+  {
+    "path": "pipelines/jenkins/Jenkinsfile.java",
+    "sha256": "497e66a95e6c90caeb4c3fbf0d589337a6b2a0e3a96bffd64ddd4a2b81923695",
+    "bytes": 372
+  },
+  {
+    "path": "pipelines/jenkins/Jenkinsfile.nodejs",
+    "sha256": "26b074359e2b102649b433916018784e54303ee2254bb0d9a382345738a8dbfd",
+    "bytes": 466
+  },
+  {
+    "path": "pipelines/jenkins/README.md",
+    "sha256": "71d8702ba880017133646f7e74705135cedba21b94c24cd432106e134aa6d799",
+    "bytes": 250
+  },
+  {
+    "path": "policies/container-security-policy.md",
+    "sha256": "d0ff0e8d1c187b89e133ef7a60ea915dc09f816a559962f6b2ade2c4980c2849",
+    "bytes": 343
+  },
+  {
+    "path": "policies/dependency-policy.md",
+    "sha256": "ff8969c8b85250d66de7e3c8952ef520da6cbd52cfc6984ae553a5f8b46d570d",
+    "bytes": 288
+  },
+  {
+    "path": "policies/exception-policy.md",
+    "sha256": "4a799ccf00df8c7806569d4c46f6686d0789d8b143816c2eb70dd0c59f074fac",
+    "bytes": 329
+  },
+  {
+    "path": "policies/production-release-policy.md",
+    "sha256": "109b7cf65004ee5bef528c555b9451773e750e425007e0263d2ec2b92577af00",
+    "bytes": 297
+  },
+  {
+    "path": "policies/secret-management-policy.md",
+    "sha256": "f93af077951e34829e2576d2b46ed8dc6112821a39bf7f891f24a51cdac69591",
+    "bytes": 213
+  },
+  {
+    "path": "policies/security-gates-policy.md",
+    "sha256": "0dcba3d7b69614893632280c0c3a5923097f2e5016593005b9d20e82a95135f0",
+    "bytes": 2156
+  },
+  {
+    "path": "policies/severity-policy.md",
+    "sha256": "fc45d8d359259541e83a7e958e44a79381d629bb87ecc1a4ae80f70086393a82",
+    "bytes": 295
+  },
+  {
+    "path": "policies/vulnerability-policy.md",
+    "sha256": "eaafb49b26bb4f975c7baf9803c09a67545b94a2c57bd01575f978245b72ce78",
+    "bytes": 217
+  },
+  {
+    "path": "presentation/DevSecOps_Industry_Standard_Pipeline.pdf",
+    "sha256": "7dcf62ca84a45f887d8653c88ad6008831277df8b9646d48c4ea6bd7dbdebaa1",
+    "bytes": 1401019
+  },
+  {
+    "path": "presentation/DevSecOps_Industry_Standard_Pipeline.pptx",
+    "sha256": "b217fd83d6af59f64d58e5e3533ac2c09e4ca4ebfa390d247667241f55ce7c86",
+    "bytes": 228006
+  },
+  {
+    "path": "presentation/README.md",
+    "sha256": "9c104717652ea6b2e2abb4df9d1d5124e035fa4104034d9ca8a11912b6b505cf",
+    "bytes": 2897
+  },
+  {
+    "path": "presentation/build_presentation.py",
+    "sha256": "a48bedadb7b63a78540ffdece21bc00b66e41e441a7cb2e0246472c897c1d57f",
+    "bytes": 11643
+  },
+  {
+    "path": "presentation/course_content.py",
+    "sha256": "351026c37172b81e0d6f09e4b5bee0e1f3804421185d0ba561f46c02e96a82d0",
+    "bytes": 63930
+  },
+  {
+    "path": "presentation/requirements.txt",
+    "sha256": "707d5cd983b190bb700bdc8f3f500240acc72a18d2c77e89a0e9a65758351b95",
+    "bytes": 50
+  },
+  {
+    "path": "presentation/slide-index.md",
+    "sha256": "b63031d43ca3319784b2444895e0620b42be2874c1594ced4c9cc101706a7836",
+    "bytes": 3654
+  },
+  {
+    "path": "presentation/source-original/DevSecOps_Industry_Standard_Pipeline.before-revision.pptx",
+    "sha256": "6e21516705eeda1983def9d5abe5b807e6774dd89c111bd28ed0b8864d822f82",
+    "bytes": 128566
+  },
+  {
+    "path": "presentation/source-original/SCA_SAST_DAST.pptx",
+    "sha256": "4e62bd415024447209e1db13ff42bcf8b7d38e6fb596b80da9178b590a229ae1",
+    "bytes": 46837
+  },
+  {
+    "path": "references/glossary.md",
+    "sha256": "bbcc8dacb4d374a237dba993d6480e98ac917a0aadef5ee9db633dc631cb977d",
+    "bytes": 8696
+  },
+  {
+    "path": "references/references.md",
+    "sha256": "641f171f15a8b6d913d54d8ec463e8acac01bc2fe1eac195c6e04f2f3a1fcc5e",
+    "bytes": 697
+  },
+  {
+    "path": "references/useful-links.md",
+    "sha256": "600d6a211ccf6f89fd5c3ec13a6449f922fd0d3fa995fa7791a8ab39ab4a5c18",
+    "bytes": 287
+  },
+  {
+    "path": "reports/examples/README.md",
+    "sha256": "a71ef6b29a88e8b4c72ba5ab6f04d5fac7cad19fa2e87f176a41980100b61661",
+    "bytes": 252
+  },
+  {
+    "path": "reports/examples/gitleaks-example.json",
+    "sha256": "23385a0d576505ea99b6c707d2ad8030eb9bbcadae102245449c41c24eb7fdc1",
+    "bytes": 92
+  },
+  {
+    "path": "reports/examples/sbom-example.json",
+    "sha256": "54a326837b135158e6f28cf389b6d86581b3ac0e4ba6891e7842636ef9b7c8b7",
+    "bytes": 91
+  },
+  {
+    "path": "reports/examples/semgrep-example.sarif",
+    "sha256": "6e7e85bfd05bd319917aa78f33ff33081685b892a6c09e45f93cb04dd32186ed",
+    "bytes": 165
+  },
+  {
+    "path": "reports/examples/trivy-example.json",
+    "sha256": "c08d9bcdde2cee912968bd01b7995f72e263432675a5428c5c9f9791000e6cd8",
+    "bytes": 157
+  },
+  {
+    "path": "reports/examples/zap-example.html",
+    "sha256": "63e386583f6edc68e56cedd7d096e16b5dbda220ab2d1bc9d683d2363cc6d066",
+    "bytes": 116
+  },
+  {
+    "path": "scripts/dast-scan.sh",
+    "sha256": "2ff20f3e28b8c9639bacec77026799585f458e968cce072ca99421f7a1a78198",
+    "bytes": 524
+  },
+  {
+    "path": "scripts/generate-sbom.sh",
+    "sha256": "2ecf0d1fb48729570d1a5702f173b8613976cd62c1a17ba653ebac147c56a419",
+    "bytes": 476
+  },
+  {
+    "path": "scripts/iac-scan.sh",
+    "sha256": "8b34b67a27a9f5981bd6383cd7a3e3205c88a88596275b8ec12d111d7649de04",
+    "bytes": 256
+  },
+  {
+    "path": "scripts/image-scan.sh",
+    "sha256": "ab3e725b0615794f35b154f09852a57d3a9dfb6f545578def1ad2b1eef7f497a",
+    "bytes": 276
+  },
+  {
+    "path": "scripts/lib/common.sh",
+    "sha256": "e7225941f2c023e5e603d2786d29b00398627dbf64bf087a1b15412032e39a50",
+    "bytes": 573
+  },
+  {
+    "path": "scripts/preflight.sh",
+    "sha256": "b397c687e197a0aefa3fb2339d1c5698f707be1c3b37642d000c2ec4d23f014a",
+    "bytes": 545
+  },
+  {
+    "path": "scripts/sast-scan.sh",
+    "sha256": "b47c8ac17795fb27f39a3a827a742058c543cdbac9993f3415ca7d41f777cba8",
+    "bytes": 336
+  },
+  {
+    "path": "scripts/sca-scan.sh",
+    "sha256": "77c8fa7f1862a3d3406ccbb9ef404f3b988538b68a9cf21a77d6af50c7347dbd",
+    "bytes": 343
+  },
+  {
+    "path": "scripts/secret-scan.sh",
+    "sha256": "6d4edd2516b07d5655375bafd7c21de103be47ff3813ca2cd68837b6b75c0633",
+    "bytes": 608
+  },
+  {
+    "path": "scripts/security-gate.sh",
+    "sha256": "8f3ac6fe6e469beb15e2acbc7b01d7d7ed19ad7e1713b06cc3ed6ecb1c4d415d",
+    "bytes": 540
+  },
+  {
+    "path": "scripts/sign-artifact.sh",
+    "sha256": "cc8f89ddb727cfbe7292ed649c0cfab4b5bb7bdb2b910dd815ad0251c22bfc97",
+    "bytes": 233
+  },
+  {
+    "path": "scripts/update_learning_links.py",
+    "sha256": "8e1fdf119b0599bc9f24906c9d918a1be68bf77d76df37c32869bbf61d58cce8",
+    "bytes": 2257
+  },
+  {
+    "path": "scripts/update_manifest.py",
+    "sha256": "6655ec91e55c8272431969b413bd4af97806e250a1ca3727561698e7e254f7cd",
+    "bytes": 1615
+  },
+  {
+    "path": "scripts/validate_repository.py",
+    "sha256": "52fea7d08e3be001b126f5616c75cd1dacdbe54a7e23fa5ae36851f76c2be63f",
+    "bytes": 3359
+  },
+  {
+    "path": "tests/test_wrappers.py",
+    "sha256": "6786e7b1b25be13a50facf5495cd1f0c71e753bd4e109fc0a738d3c6cfa70fb1",
+    "bytes": 6437
+  },
+  {
+    "path": "threat-model/README.md",
+    "sha256": "326be4985704fc1600c0737486bf47d8b24aff4a33d41c419ecaafc0ee8f8216",
+    "bytes": 200
+  },
+  {
+    "path": "threat-model/example-threat-model.md",
+    "sha256": "e4e11cc391af16299bd44cb6ea7d1468b292c9ffb131b0be7caa5411659caeae",
+    "bytes": 647
+  },
+  {
+    "path": "threat-model/template.md",
+    "sha256": "dea4a152e9e6cb4f2854751c129101b77a0c8f222f174291a8ce228a33aa8496",
+    "bytes": 894
+  },
+  {
+    "path": "tool-matrix/alternatives.md",
+    "sha256": "ede1166f307ee757c77c2c9e0322a5b1f6120cfdc072c6fe8e8212446fb1a318",
+    "bytes": 260
+  },
+  {
+    "path": "tool-matrix/language-tools.md",
+    "sha256": "6913cdb44b52269343d9c2429819dea0a9a58d1edbfab4b5730c70bb30a7ff67",
+    "bytes": 866
+  },
+  {
+    "path": "tool-matrix/open-source-vs-enterprise.md",
+    "sha256": "cf6276f71f869f798c6a9c6797286fe0391a7b8220347f35a5bac54f0cfd18c1",
+    "bytes": 511
+  },
+  {
+    "path": "tool-matrix/security-tools.md",
+    "sha256": "b5bdb17b576d7658250b86db0af314ee5bf14ffa82106ab0f6eec033516c0c36",
+    "bytes": 1298
+  }
+]

@@ -1,0 +1,6 @@
+compact: true
+quiet: false
+framework:
+  - terraform
+  - kubernetes
+  - dockerfile

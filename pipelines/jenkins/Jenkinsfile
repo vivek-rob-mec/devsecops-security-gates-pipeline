@@ -1,0 +1,69 @@
+pipeline {
+  agent any
+
+  options {
+    timestamps()
+    disableConcurrentBuilds()
+  }
+
+  environment {
+    REPORT_DIR = 'reports/generated'
+  }
+
+  stages {
+    stage('Preflight') {
+      steps { sh 'bash scripts/preflight.sh' }
+    }
+    stage('Checkout') {
+      steps { checkout scm }
+    }
+    stage('Fast Security') {
+      parallel {
+        stage('Secrets') { steps { sh 'bash scripts/secret-scan.sh' } }
+        stage('IaC') { steps { sh 'bash scripts/iac-scan.sh' } }
+      }
+    }
+    stage('Dependency / SCA') {
+      steps { sh 'bash scripts/sca-scan.sh' }
+    }
+    stage('SAST') {
+      steps { sh 'bash scripts/sast-scan.sh' }
+    }
+    stage('Unit + Integration Tests') {
+      steps { echo 'Replace with stack-specific test command.' }
+    }
+    stage('Build') {
+      steps { echo 'Build exactly one release artifact/image.' }
+    }
+    stage('Artifact / Image Scan') {
+      steps { echo 'Scan the final artifact/image by immutable digest.' }
+    }
+    stage('SBOM + Sign') {
+      steps {
+        sh 'bash scripts/generate-sbom.sh'
+        echo 'Sign/attest using workload identity or protected key material.'
+      }
+    }
+    stage('Publish') {
+      steps { echo 'Publish immutable artifact to Nexus/Artifactory/registry.' }
+    }
+    stage('Deploy Staging') {
+      steps { echo 'Deploy the same digest to staging.' }
+    }
+    stage('DAST') {
+      steps { sh 'bash scripts/dast-scan.sh' }
+    }
+    stage('Release Gate') {
+      steps { sh 'bash scripts/security-gate.sh' }
+    }
+    stage('Deploy Production') {
+      steps { echo 'Promote the approved immutable artifact; do not rebuild.' }
+    }
+  }
+
+  post {
+    always {
+      archiveArtifacts artifacts: 'reports/generated/**/*', allowEmptyArchive: true
+    }
+  }
+}

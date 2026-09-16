@@ -1,0 +1,40 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Scanner caches / reports generated locally
+.trivycache/
+.dependency-check-data/
+.zap/
+reports/generated/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Common build output
+node_modules/
+dist/
+build/
+target/
+bin/
+obj/
+.venv/
+__pycache__/
+.tools/
+presentation/preview/
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log

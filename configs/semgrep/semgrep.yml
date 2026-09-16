@@ -1,0 +1,10 @@
+rules:
+  - id: example-shell-true
+    languages: [generic]
+    message: Review use of shell commands that intentionally ignore failure.
+    severity: WARNING
+    pattern-regex: "\\|\\| true"
+    paths:
+      include:
+        - "pipelines/**"
+        - "scripts/**"

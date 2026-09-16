@@ -1,0 +1,11 @@
+flowchart TD
+A[Finding] --> B{Verified?}
+B -->|No| C[Triage]
+B -->|Yes| D{Exceeds policy?}
+D -->|No| E[Track / Continue]
+D -->|Yes| F{Valid exception?}
+F -->|No| G[Block]
+F -->|Yes| H[Continue with recorded risk]
+G --> I[Remediate]
+I --> J[Re-scan]
+J --> D
